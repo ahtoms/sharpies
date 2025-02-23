@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FahToCel", "FahToCel\FahToCel.csproj", "{19854365-74B1-4824-8F32-BF446ACF9477}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FahToCel.Test", "FahToCel.Test\FahToCel.Test.csproj", "{1FB8C904-D0B5-4CC3-95A6-A6A15CFFEF1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19854365-74B1-4824-8F32-BF446ACF9477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19854365-74B1-4824-8F32-BF446ACF9477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19854365-74B1-4824-8F32-BF446ACF9477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19854365-74B1-4824-8F32-BF446ACF9477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FB8C904-D0B5-4CC3-95A6-A6A15CFFEF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB8C904-D0B5-4CC3-95A6-A6A15CFFEF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB8C904-D0B5-4CC3-95A6-A6A15CFFEF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB8C904-D0B5-4CC3-95A6-A6A15CFFEF1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollerCoaster", "RollerCoaster\RollerCoaster.csproj", "{DB04BF4E-A6C1-4E06-911C-13CFE45243A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollerCoaster.Test", "RollerCoaster.Test\RollerCoaster.Test.csproj", "{7D4CAC41-113E-45C6-B207-5AC53795C214}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB04BF4E-A6C1-4E06-911C-13CFE45243A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB04BF4E-A6C1-4E06-911C-13CFE45243A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB04BF4E-A6C1-4E06-911C-13CFE45243A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB04BF4E-A6C1-4E06-911C-13CFE45243A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D4CAC41-113E-45C6-B207-5AC53795C214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4CAC41-113E-45C6-B207-5AC53795C214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4CAC41-113E-45C6-B207-5AC53795C214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4CAC41-113E-45C6-B207-5AC53795C214}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

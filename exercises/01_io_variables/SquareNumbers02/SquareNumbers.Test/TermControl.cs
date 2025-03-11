@@ -76,9 +76,16 @@ public class TermController
         stdoutRecorder.Flush();
     }
 
-    public string GetOutputString()
+    public string GetRawOutputString()
     {
         return stdoutRecorder.ToString();
+    }
+
+    public string GetOutputString()
+    {
+        string output = GetRawOutputString();
+        string newOutput = output.Replace("\n\r", "\n");
+        return newOutput;
     }
 
     public TermController ResetStdOut()

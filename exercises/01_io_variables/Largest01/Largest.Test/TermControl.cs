@@ -1,4 +1,4 @@
-namespace Largest;
+namespace SquareNumbers;
 
 using System.Reflection;
 
@@ -31,11 +31,11 @@ public class TermController
                 break;
             }
 
-        }
-        return mMatch;
+            }
+            return mMatch;
     }
 
-    public TermController FindAndInvokeMain(string programName, string[] args) {
+    public TermController FindAndInvokeMain(string programName, object[] args) {
         MethodInfo? m = GetMain(programName);
         if(m != null) {
             m.Invoke(null, new object[] { args });
@@ -73,18 +73,25 @@ public class TermController
 
     public void FlushStdOut()
     {
-            stdoutRecorder.Flush();
+        stdoutRecorder.Flush();
     }
 
-    public string GetOutputString()
+    public string GetRawOutputString()
     {
         return stdoutRecorder.ToString();
     }
 
+    public string GetOutputString()
+    {
+        string output = GetRawOutputString();
+        string newOutput = output.Replace("\n\r", "\n");
+        return newOutput;
+    }
+
     public TermController ResetStdOut()
     {
-            Console.SetOut(stdout);
-            return this;
+        Console.SetOut(stdout);
+        return this;
     }
 
     public TermController RecordStdErr()

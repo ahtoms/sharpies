@@ -1,8 +1,5 @@
 namespace DieRoll.Test;
 
-
-
-
 public class DieRollTestRunner
 {
     [Fact]

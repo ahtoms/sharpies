@@ -84,7 +84,7 @@ public class TermController
     public string GetOutputString()
     {
         string output = GetRawOutputString();
-        string newOutput = output.Replace("\n\r", "\n");
+        string newOutput = output.Replace("\r\n", "\n");
         return newOutput;
     }
 
